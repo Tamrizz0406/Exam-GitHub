@@ -225,9 +225,6 @@
   .m-auto {
     margin: auto;
   }
-  .mx-auto {
-    margin-inline: auto;
-  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -327,14 +324,8 @@
   .w-\[580px\] {
     width: 580px;
   }
-  .w-\[600px\] {
-    width: 600px;
-  }
   .w-\[650px\] {
     width: 650px;
-  }
-  .w-\[670px\] {
-    width: 670px;
   }
   .w-\[680px\] {
     width: 680px;
@@ -342,20 +333,8 @@
   .w-\[700px\] {
     width: 700px;
   }
-  .w-\[730px\] {
-    width: 730px;
-  }
-  .w-\[740px\] {
-    width: 740px;
-  }
   .w-full {
     width: 100%;
-  }
-  .max-w-2xl {
-    max-width: var(--container-2xl);
-  }
-  .max-w-3 {
-    max-width: calc(var(--spacing) * 3);
   }
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
@@ -527,9 +506,6 @@
   .bg-gray-100 {
     background-color: var(--color-gray-100);
   }
-  .bg-gray-800 {
-    background-color: var(--color-gray-800);
-  }
   .bg-gradient-to-b {
     --tw-gradient-position: to bottom in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
@@ -616,9 +592,6 @@
   }
   .py-14 {
     padding-block: calc(var(--spacing) * 14);
-  }
-  .pt-8 {
-    padding-top: calc(var(--spacing) * 8);
   }
   .pt-15 {
     padding-top: calc(var(--spacing) * 15);
